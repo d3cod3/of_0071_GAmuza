@@ -1,0 +1,486 @@
+# depslib dependency file v1.0
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lapi.c
+	<assert.h>
+	<math.h>
+	<stdarg.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1345826592 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/luaconf.h
+	<limits.h>
+	<stddef.h>
+	<unistd.h>
+	<io.h>
+	<stdio.h>
+	<stdio.h>
+	<readline/readline.h>
+	<readline/history.h>
+	<assert.h>
+	<math.h>
+	<math.h>
+	<unistd.h>
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lapi.h
+	"lobject.h"
+
+1345819733 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lobject.h
+	<stdarg.h>
+	"llimits.h"
+	"lua.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/llimits.h
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+
+1345823744 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ldebug.h
+	"lstate.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lstate.h
+	"lua.h"
+	"lobject.h"
+	"ltm.h"
+	"lzio.h"
+
+1345825217 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ltm.h
+	"lobject.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lzio.h
+	"lua.h"
+	"lmem.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lmem.h
+	<stddef.h>
+	"llimits.h"
+	"lua.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ldo.h
+	"lobject.h"
+	"lstate.h"
+	"lzio.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lfunc.h
+	"lobject.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lgc.h
+	"lobject.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lstring.h
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+
+1345819840 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ltable.h
+	"lobject.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lundump.h
+	"lobject.h"
+	"lzio.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lvm.h
+	"ldo.h"
+	"lobject.h"
+	"ltm.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lauxlib.c
+	<ctype.h>
+	<errno.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lbaselib.c
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1344849318 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lualib.h
+	"lua.h"
+
+1345824905 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lcode.c
+	<stdlib.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"ltable.h"
+
+1345824934 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lcode.h
+	"llex.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+
+1345824728 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/llex.h
+	"lobject.h"
+	"lzio.h"
+
+1345824603 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lopcodes.h
+	"llimits.h"
+
+1311527876 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lparser.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ldblib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1345823700 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ldebug.c
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ldo.c
+	<setjmp.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+	"lzio.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ldump.c
+	<stddef.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lfunc.c
+	<stddef.h>
+	"lua.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lgc.c
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/liolib.c
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1345824736 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/llex.c
+	<ctype.h>
+	<locale.h>
+	<string.h>
+	"lua.h"
+	"ldo.h"
+	"llex.h"
+	"lobject.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lzio.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lmathlib.c
+	<stdlib.h>
+	<math.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lmem.c
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/loadlib.c
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<dlfcn.h>
+	<windows.h>
+	<mach-o/dyld.h>
+
+1345810821 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lobject.c
+	<ctype.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"lvm.h"
+
+1345824526 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lopcodes.c
+	"lopcodes.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/loslib.c
+	<errno.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1345825120 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lparser.c
+	<string.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lstate.c
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lstring.c
+	<string.h>
+	"lua.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lstrlib.c
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1345819820 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ltable.c
+	<math.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"ltable.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ltablib.c
+	<stddef.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1345825166 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/ltm.c
+	<string.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lundump.c
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstring.h"
+	"lundump.h"
+	"lzio.h"
+
+1345826105 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lvm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/lzio.c
+	<string.h>
+	"lua.h"
+	"llimits.h"
+	"lmem.h"
+	"lstate.h"
+	"lzio.h"
+
+1311527876 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/print.c
+	<ctype.h>
+	<stdio.h>
+	"ldebug.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lundump.h"
+
+1231273080 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/bit.c
+	"lua.h"
+	"lauxlib.h"
+	<stdint.h>
+
+1344849260 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/linit.c
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1350303176 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/luagl.c
+	<stdio.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	"lua.h"
+	"lauxlib.h"
+	"macros.h"
+
+1286100538 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/macros.h
+
+1330601194 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/luaglut.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/openglut.h>
+	<GL/openglut_exp.h>
+	<GL/openglean.h>
+	<GL/openglean_exp.h>
+	<GL/freeglut.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"lua.h"
+	"lauxlib.h"
+	<assert.h>
+	"macros.h"
+	"menus.h"
+
+1286100538 /home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/menus.h
+
+1350303191 source:/home/n3m3da/Desarrollo/of_preRelease_v0070_GAmuza/addons/ofxLua/src/lua/memarray.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	"lua.h"
+	"lauxlib.h"
+

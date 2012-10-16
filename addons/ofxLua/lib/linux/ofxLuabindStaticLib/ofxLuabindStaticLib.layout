@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="../../../src/luabind/luabind/back_reference.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1394" topLine="5" />
+	</File>
+	<File name="../../../src/luabind/luabind/class.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="5084" topLine="79" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/call_member.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1597" topLine="9" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/class_cache.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1228" topLine="5" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/class_registry.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1395" topLine="8" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/class_rep.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2035" topLine="13" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/convert_to_lua.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1334" topLine="6" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/debug.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1275" topLine="7" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/decorate_type.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1306" topLine="6" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/garbage_collector.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1279" topLine="6" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/inheritance.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="445" topLine="0" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/instance_holder.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="505" topLine="0" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/make_instance.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="419" topLine="0" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/object_rep.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1430" topLine="7" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/operator_id.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1267" topLine="6" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/pcall.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1254" topLine="0" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/policy.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2879" topLine="40" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/primitives.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1266" topLine="9" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/ref.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1248" topLine="11" />
+	</File>
+	<File name="../../../src/luabind/luabind/detail/typetraits.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1446" topLine="6" />
+	</File>
+	<File name="../../../src/luabind/luabind/error.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1374" topLine="5" />
+	</File>
+	<File name="../../../src/luabind/luabind/handle.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1312" topLine="5" />
+	</File>
+	<File name="../../../src/luabind/luabind/lua_include.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1311" topLine="0" />
+	</File>
+	<File name="../../../src/luabind/luabind/nil.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1229" topLine="0" />
+	</File>
+	<File name="../../../src/luabind/luabind/object.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="8232" topLine="295" />
+	</File>
+	<File name="../../../src/luabind/luabind/open.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1250" topLine="0" />
+	</File>
+	<File name="../../../src/luabind/luabind/scope.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1381" topLine="5" />
+	</File>
+	<File name="../../../src/luabind/luabind/typeid.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="403" topLine="0" />
+	</File>
+	<File name="../../../src/luabind/luabind/weak_ref.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1237" topLine="5" />
+	</File>
+	<File name="../../../src/luabind/luabind/wrapper_base.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1464" topLine="7" />
+	</File>
+	<File name="../../../src/luabind/src/class.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1391" topLine="9" />
+	</File>
+</CodeBlocks_layout_file>

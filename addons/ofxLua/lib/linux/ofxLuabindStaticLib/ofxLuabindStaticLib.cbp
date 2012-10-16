@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libluabind" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/;src/luabind/;src/src/;src/luabind/detail/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="libluabindDebug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="libluabind" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../../../src/luabind" />
+			<Add directory="../../../src/lua" />
+			<Add directory="../../../../../libs/boost/include/boost/" />
+		</Compiler>
+		<Unit filename="../../../src/lua/lapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lapi.h" />
+		<Unit filename="../../../src/lua/lauxlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lauxlib.h" />
+		<Unit filename="../../../src/lua/lbaselib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lcode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lcode.h" />
+		<Unit filename="../../../src/lua/ldblib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/ldebug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/ldebug.h" />
+		<Unit filename="../../../src/lua/ldo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/ldo.h" />
+		<Unit filename="../../../src/lua/ldump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lfunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lfunc.h" />
+		<Unit filename="../../../src/lua/lgc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lgc.h" />
+		<Unit filename="../../../src/lua/linit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/liolib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/llex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/llex.h" />
+		<Unit filename="../../../src/lua/llimits.h" />
+		<Unit filename="../../../src/lua/lmathlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lmem.h" />
+		<Unit filename="../../../src/lua/loadlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lobject.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lobject.h" />
+		<Unit filename="../../../src/lua/lopcodes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lopcodes.h" />
+		<Unit filename="../../../src/lua/loslib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lparser.h" />
+		<Unit filename="../../../src/lua/lstate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lstate.h" />
+		<Unit filename="../../../src/lua/lstring.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lstring.h" />
+		<Unit filename="../../../src/lua/lstrlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/ltable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/ltable.h" />
+		<Unit filename="../../../src/lua/ltablib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/ltm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/ltm.h" />
+		<Unit filename="../../../src/lua/lua.h" />
+		<Unit filename="../../../src/lua/lua.hpp" />
+		<Unit filename="../../../src/lua/luaconf.h" />
+		<Unit filename="../../../src/lua/lualib.h" />
+		<Unit filename="../../../src/lua/lundump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lundump.h" />
+		<Unit filename="../../../src/lua/lvm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lvm.h" />
+		<Unit filename="../../../src/lua/lzio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lua/lzio.h" />
+		<Unit filename="../../../src/lua/print.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/adopt_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/back_reference.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/back_reference_fwd.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/class.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/class_info.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/config.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/container_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/copy_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/dependency_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/calc_arity.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/call.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/call_function.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/call_member.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/call_operator_iterate.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/class_cache.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/class_registry.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/class_rep.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/compute_score.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/constructor.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/conversion_storage.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/convert_to_lua.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/debug.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/decorate_type.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/deduce_signature.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/enum_maker.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/format_signature.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/garbage_collector.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/has_get_pointer.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/inheritance.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/instance_holder.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/is_indirect_const.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/link_compatibility.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/make_instance.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/most_derived.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/object_call.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/object_funs.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/object_rep.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/open.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/operator_id.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/other.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/pcall.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/pointee_sizeof.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/pointee_typeid.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/policy.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/primitives.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/property.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/ref.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/signature_match.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/stack_utils.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/typetraits.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/detail/yes_no.hpp">
+			<Option virtualFolder="src/luabind/detail/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/discard_result_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/error.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/exception_handler.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/from_stack.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/function.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/get_main_thread.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/get_pointer.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/handle.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/iterator_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/lua_include.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/luabind.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/make_function.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/nil.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/object.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/open.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/operator.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/out_value_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/prefix.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/raw_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/return_reference_to_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/scope.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/shared_ptr_converter.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/tag_function.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/typeid.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/value_wrapper.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/version.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/weak_ref.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/wrapper_base.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/luabind/yield_policy.hpp">
+			<Option virtualFolder="src/luabind/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/class.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/class_info.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/class_registry.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/class_rep.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/create_class.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/error.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/exception_handler.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/function.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/inheritance.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/link_compatibility.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/object_rep.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/open.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/pcall.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/scope.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/stack_content_by_name.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/weak_ref.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Unit filename="../../../src/luabind/src/wrapper_base.cpp">
+			<Option virtualFolder="src/src/" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

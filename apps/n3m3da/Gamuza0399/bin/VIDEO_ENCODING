@@ -1,0 +1,26 @@
+------------------------------------------------
+QUICKTIME Encoding
+
+Quicktime Photo-JPEG
+
+800x600 - 720x576 - 640x480 - 320x240
+
+25 - 15 FPS
+
+jpeg quality  49% - 61%
+------------------------------------------------
+
+------------------------------------------------
+FFMPEG Encoding
+
+-pix_fmt	yuv420p
+-vcodec		mjpeg
+-s		hd480(852x480) - svga(800x600) - vga(640x480) - qvga(320x240)
+-aspect		16:9 - 16:10 - 4:3 or any
+-r		25 - 15
+-qscale		12.0 - 6.0
+
+Example:
+
+ffmpeg -i inputFile.ext -pix_fmt yuv420p -s hd480 -aspect 16:9 -r 25 -qscale 9.5 -vcodec mjpeg -f mov -acodec copy -y outputFile.mov
+------------------------------------------------

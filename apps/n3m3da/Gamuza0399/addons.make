@@ -1,0 +1,7 @@
+ofx3DModelLoader
+ofxNetwork
+ofxOpenCv
+ofxVectorGraphics
+ofxXmlSettings
+ofxOsc
+ofxLua
