@@ -1738,12 +1738,8 @@ void gamuzaMain::gamuzaFullscreen(){
 
 	if(liveCodingMode && isFullscreen){
         scriptScroll.reset(lcPrevX-20,1,20,lcPrevH-1);
-    }else if(!liveCodingMode && isFullscreen){
-        scriptScroll.reset(224+guiPosX,previewY+guiPosY,20,previewH);
     }else if(liveCodingMode && !isFullscreen){
         scriptScroll.reset(lcPrevX-20,1,20,lcPrevH-1);
-    }else{
-        scriptScroll.reset(224,previewY,20,previewH);
     }
 
 }

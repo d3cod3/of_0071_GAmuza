@@ -110,7 +110,7 @@ void gamuzaMain::setupFBO(){
 	///////////////////////////
 	// LIVE CODING CONSOLE	setup
 	liveCoding.setup();
-    scriptScroll.setup(224,previewY,20,previewH);
+    scriptScroll.setup(lcPrevX-20,1,20,lcPrevH-1);
 
 	// adding lua language to live coding
 	ofAddListener(liveCoding.doCompileEvent, this, &gamuzaMain::renderScript);
@@ -248,6 +248,9 @@ void gamuzaMain::drawFBO(){
                     ofPopStyle();
                     ofPopMatrix();
                     ofPopView();
+                    // script scroll
+                    glTranslatef(-guiPosX, -guiPosY, 0.0f);
+                    scriptScroll.draw();
                 }
             }else{
                 if(gui.getSelectedPanel() == 0){
